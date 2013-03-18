@@ -3,15 +3,15 @@
 class ShutterstockApiClient {
     
     //customer credentials     
-    private static $customer_username      = 'XXXXXX';
-    private static $customer_password       = 'XXXXX';
+    public static $customer_username       = 'XXXXXX';
+    public static $customer_password       = 'XXXXX';
     
     //basic auth info
-    private static $auth_username = 'XXXXX';
-    private static $auth_key      = 'XXXXX'; 
+    public static $auth_username = 'XXXXX';
+    public static $auth_key      = 'XXXXX'; 
     
     //api domain info    
-    private $base_url       = 'api.integration.dev.shutterstock.com';
+    public $base_url       = 'api.shutterstock.com';
        
     private $auth_token               = null;   
     
