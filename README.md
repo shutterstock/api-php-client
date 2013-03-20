@@ -1,4 +1,4 @@
-## This is currently a work in progress and is designed as just one example on how to interact with the Shutterstock API using PHP.
+### NOTE: This is currently a work in progress and is designed as just one example on how to interact with the Shutterstock API using PHP.
 
 # Shutterstock API PHP Client
 
