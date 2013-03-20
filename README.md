@@ -1,3 +1,5 @@
+## This is currently a work in progress and is designed as just one example on how to interact with the Shutterstock API using PHP.
+
 # Shutterstock API PHP Client
 
 PHP Client is a single file library which provides an easy way to interact with the Shutterstock Inc. API <http://api.shutterstock.com>. You will need an API username and key
