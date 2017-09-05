@@ -185,3 +185,6 @@ There are many filters supported while searching for Shutterstock images catalog
 ### Download an image using a subscription
     $download = $sapi->downloadImage(image_id, subscription_id, size, format, meta_data);
 
+## License
+
+[MIT](LICENSE) © 2017 Shutterstock Images, LLC
