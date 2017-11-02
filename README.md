@@ -1,11 +1,20 @@
-### NOTE: This is currently a work in progress and is designed as just one example on how to interact with the Shutterstock API using PHP.
-
 # Shutterstock API PHP Client
 
-PHP Client is a single file library which provides an easy way to interact with the Shutterstock Inc. API <http://api.shutterstock.com>. You will need an API username and key
+> Sample PHP client implementation of Shutterstock API
+
+### NOTE: This is currently a work in progress and is designed as just one example on how to interact with the Shutterstock API using PHP.
+
+PHP Client is a single file library which provides an easy way to interact with the Shutterstock Inc. API <https://developers.shutterstock.com>. You will need an API username and key
 from Shutterstock with the appropriate permissions in order to use this client.
 
-### Get Started:
+## Table of Contents
+
+- [Install](#install)
+- [Usage](#usage)
+- [Contribute](#contribute)
+- [License](#license)
+
+## Install
 
 Include "ShutterstockApiClient.php" in your PHP script and initialize class.
 
@@ -24,6 +33,8 @@ Include "ShutterstockApiClient.php" in your PHP script and initialize class.
     private static $auth_key      = 'XXXXX'; 
 
 Below are some examples of how to use this client to interact with Shutterstock Inc. API:
+
+## Usage
 
 ### Get category list
     $categories = $sapi->getCategories();
@@ -185,6 +196,10 @@ There are many filters supported while searching for Shutterstock images catalog
 ### Download an image using a subscription
     $download = $sapi->downloadImage(image_id, subscription_id, size, format, meta_data);
 
+## Contribute
+
+Please do! Check out our [Contributing guide](CONTRIBUTING.md).
+
 ## License
 
-[MIT](LICENSE) © 2017 Shutterstock Images, LLC
+[MIT](LICENSE) © 2017 Shutterstock Images, Inc.
