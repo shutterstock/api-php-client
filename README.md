@@ -1,4 +1,6 @@
-# Shutterstock API PHP Client
+# DEPRECATED
+
+This example code points to an older version of the Shutterstock API that is no longer publicly supported. For a newer example, please see https://github.com/shutterstock/php-shutterstock-api.
 
 > Sample PHP client implementation of Shutterstock API
 
